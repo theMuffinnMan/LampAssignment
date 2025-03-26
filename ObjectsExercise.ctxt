@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ObjectsExercise
+comment0.text=\ Exercise\ for\ defining\ objects.\r\n\ \ This\ program\ contains\ methods\ for\ testing\ Lamp,\ PartyBalloon,\ and\ FlagStaff\ objects.\r\n\ \ It\ is\ all\ written\ for\ you,\ but\ you\ need\ to\ read\ it\ to\ see\ what\ the\r\n\ \ Lamp,\ PartyBalloon,\ and\ FlagStaff\ classes\ should\ do\r\n
+comment1.params=
+comment1.target=void\ createLamps()
+comment1.text=Makes\ several\ Lamp\ objects
+comment2.params=action\ x\ y
+comment2.target=void\ manageLamps(java.lang.String,\ double,\ double)
+comment2.text=Manages\ the\ Lamp\ objects
+comment3.params=
+comment3.target=void\ clear()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=Create\ a\ new\ ObjectExercise\ object\ and\ setup\ the\ interface
+numComments=5
