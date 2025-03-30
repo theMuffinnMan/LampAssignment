@@ -1,0 +1,24 @@
+BlueJ run started: Mon Mar 31 08:42:47 NZDT 2025
+BlueJ version 5.4.1
+Build ID: 76ffe5af
+Java version 21.0.4
+JavaFX version 21.0.3+2
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.4+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: C:\Program Files\bluej\jdk
+----
+Detected language "english" based on iso639-2 code "eng"
+Opening project: C:\Users\Fleur\OneDrive\Desktop\13CSP - Home\lampAssignment
+1743363776104: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (The system cannot find the file specified)
+1743365866032: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743366076848: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743366674692: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

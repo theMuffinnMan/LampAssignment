@@ -43,25 +43,20 @@ public class Lamp{
     // color
     private Color color;
     
-    // lamp power
-    private boolean lampPower;
-    
-    private int top;
-    private int left;
-    private int bottom;
+    private double top;
+    private double left;
+    private double bottom;
 
     /** Constructor: passed the initial position.
      * Initialises the fields
      */
-    public Lamp(double x, double y, int size, int stem, Color col, boolean power){
+    public Lamp(double x, double y){
         /*# YOUR CODE HERE */
         this.lampX = x;
         this.lampY = y;
-        this.lampSize = size;
-        this.lampHeight = stem;
-        this.lampPower = power;
-        this.color = col;
-        
+        this.left = lampX - lampHeight/2.0;
+        this.top = lampY - lampHeight/2.0;
+        this.color = new Color((float)Math.random(),(float)Math.random(),(float)Math.random());
     }
 
     /**
@@ -80,7 +75,7 @@ public class Lamp{
         
         // draw the lamp
         UI.setColor(this.color);
-        UI.fillRect(this.left, this.top, this.lampSize, this.lampSize);
+        UI.fillOval(this.left, this.top, this.lampSize, this.lampSize);
     }   
 
     /** 
@@ -91,10 +86,12 @@ public class Lamp{
         // an easy approximation is to pretend it is the enclosing rectangle.
         // It is nicer to do a little bit of geometry and get it right
         /*# YOUR CODE HERE */
-        if (action.equals = "pressed"){
-            this.lampX = x;
-            this.lampY = y;
-
+        if (x > lampX && x < lampX + lampHeight &&
+        y > lampY && y < lampY + 80) {
+            return true;
+        }
+        else{
+            return false;
         }
     }
 
@@ -104,7 +101,13 @@ public class Lamp{
      */
     public boolean onStem(double x, double y){
         /*# YOUR CODE HERE */
-        
+        if (x > lampX + 30 && x < lampX + 60 &&
+        y > lampY + lampHeight && y < lampY + lampHeight * 2) {
+            return true;
+        }
+        else{
+            return false;
+        }
  
     }   
 
