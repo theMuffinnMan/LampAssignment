@@ -36,9 +36,7 @@ public class Lamp{
     private double lampY = 100;
     
     //lamp size and height
-    private int lampSize = 80;
-    private int lampHeight = 80;
-    private int WIDTH = 20;
+    private double WIDTH = SIZE/4;
     
     // color
     private Color color;
@@ -54,8 +52,8 @@ public class Lamp{
         /*# YOUR CODE HERE */
         this.lampX = x;
         this.lampY = y;
-        this.left = lampX - lampHeight/2.0;
-        this.top = lampY - lampHeight/2.0;
+        this.left = lampX - SIZE/2.0;
+        this.top = lampY - SIZE/2.0;
         this.color = new Color((float)Math.random(),(float)Math.random(),(float)Math.random());
     }
 
@@ -71,11 +69,11 @@ public class Lamp{
         //draw the stem
         UI.setColor(Color.darkGray);
         UI.setLineWidth(WIDTH);
-        UI.drawLine(this.lampX, this.lampY, this.lampX, this.lampY + this.lampHeight);
+        UI.drawLine(this.lampX, this.lampY, this.lampX, this.lampY + this.SIZE);
         
         // draw the lamp
         UI.setColor(this.color);
-        UI.fillOval(this.left, this.top, this.lampSize, this.lampSize);
+        UI.fillOval(this.left, this.top, this.SIZE, this.SIZE);
     }   
 
     /** 
@@ -86,7 +84,7 @@ public class Lamp{
         // an easy approximation is to pretend it is the enclosing rectangle.
         // It is nicer to do a little bit of geometry and get it right
         /*# YOUR CODE HERE */
-        if (x > lampX && x < lampX + lampHeight &&
+        if (x > lampX && x < lampX + SIZE &&
         y > lampY && y < lampY + 80) {
             return true;
         }
@@ -102,7 +100,7 @@ public class Lamp{
     public boolean onStem(double x, double y){
         /*# YOUR CODE HERE */
         if (x > lampX + 30 && x < lampX + 60 &&
-        y > lampY + lampHeight && y < lampY + lampHeight * 2) {
+        y > lampY + SIZE && y < lampY + SIZE * 2) {
             return true;
         }
         else{
