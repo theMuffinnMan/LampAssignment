@@ -37,13 +37,15 @@ public class Lamp{
     
     //lamp size and height
     private double WIDTH = SIZE/4;
+    private double top;
+    private double left;
+    private double bottom;
     
     // color
     private Color color;
     
-    private double top;
-    private double left;
-    private double bottom;
+    // lamp on/off
+    private boolean power;
 
     /** Constructor: passed the initial position.
      * Initialises the fields
@@ -55,6 +57,7 @@ public class Lamp{
         this.left = lampX - SIZE/2.0;
         this.top = lampY - SIZE/2.0;
         this.color = new Color((float)Math.random(),(float)Math.random(),(float)Math.random());
+        power = false;
     }
 
     /**
@@ -84,8 +87,8 @@ public class Lamp{
         // an easy approximation is to pretend it is the enclosing rectangle.
         // It is nicer to do a little bit of geometry and get it right
         /*# YOUR CODE HERE */
-        if (x > lampX && x < lampX + SIZE &&
-        y > lampY && y < lampY + 80) {
+        if (x > lampX - SIZE/2 && x < lampX + SIZE/2 &&
+        y > lampY - SIZE/2 && y < lampY + SIZE) {
             return true;
         }
         else{
@@ -99,14 +102,13 @@ public class Lamp{
      */
     public boolean onStem(double x, double y){
         /*# YOUR CODE HERE */
-        if (x > lampX + 30 && x < lampX + 60 &&
+        if (x > lampX - SIZE/8 && x < lampX + SIZE/8 &&
         y > lampY + SIZE && y < lampY + SIZE * 2) {
             return true;
         }
         else{
             return false;
         }
- 
     }   
 
     /**
@@ -116,7 +118,8 @@ public class Lamp{
     public void turnOff(){
         /*# YOUR CODE HERE */
         //change the lamp color to black
-
+        UI.setColor(color.black);
+        UI.fillOval(this.left, this.top, this.SIZE, this.SIZE);
     }   
 
     /** changeColor method (no parameters):
@@ -126,8 +129,20 @@ public class Lamp{
      */
     public void changeColor(){
         /*# YOUR CODE HERE */
-        // check wether lamp is on or off
-        // if lamp is off, turn lamp on
-        // if lamp is on, change lamp color
-    }   
+        // check whether lamp is on or off
+        if (this.power = false){
+            // if lamp is off, turn lamp on
+            UI.setColor(this.color);
+            UI.fillOval(this.left, this.top, this.SIZE, this.SIZE);
+        }
+        else if(this.power = true){
+            // if lamp is on, change lamp color
+            // set color
+            this.color = new Color((float)Math.random(),(float)Math.random(),(float)Math.random());
+            //redraw lamp
+            UI.setColor(this.color);
+            UI.fillOval(this.left, this.top, this.SIZE, this.SIZE);
+        } 
+    
+    }
 }
