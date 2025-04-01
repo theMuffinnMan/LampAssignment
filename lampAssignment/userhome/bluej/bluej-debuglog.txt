@@ -34,3 +34,103 @@ Communication with debug VM fully established.
 1743410351598: Listening for JDWP connection on address: javadebug
 Connected to debug VM via dt_shmem transport...
 Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Tue Apr 01 11:34:03 NZDT 2025
+BlueJ version 5.4.1
+Build ID: 76ffe5af
+Java version 21.0.4
+JavaFX version 21.0.3+2
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.4+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: C:\Program Files\bluej\jdk
+----
+Opening project: C:\Users\Fleur\OneDrive\Desktop\13CSP - Home\lampAssignment
+1743460444993: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743460638565: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743460872784: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743461034326: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743461132867: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743462920542: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743462986492: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743463075866: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743463219615: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743463318115: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743463437316: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743478655705: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743478690243: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743478805032: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743479140626: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743479248855: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743479401183: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743479940875: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743480081707: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743480740948: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743480826163: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481006410: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481056191: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481125312: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481365495: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481668744: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743481741634: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743485547113: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1743485575531: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
